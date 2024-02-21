@@ -8,15 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E38A45872B86874000B15F87 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38A45862B86874000B15F87 /* Questions.swift */; };
-		E38A45892B869C5500B15F87 /* PageTurn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38A45882B869C5500B15F87 /* PageTurn.swift */; };
+		E3B7479D2B8C27BF00F261ED /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B7479C2B8C27BF00F261ED /* Build.swift */; };
 		E3E41EE62B4B28E10079369A /* SwiftStudentChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E41EE52B4B28E10079369A /* SwiftStudentChallengeApp.swift */; };
 		E3E41EE82B4B28E10079369A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E41EE72B4B28E10079369A /* ContentView.swift */; };
 		E3E41EEA2B4B28E20079369A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E41EE92B4B28E20079369A /* Assets.xcassets */; };
-		E3E41EED2B4B28E20079369A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E41EEC2B4B28E20079369A /* Preview Assets.xcassets */; };
 		E3E41EF72B4B28E30079369A /* SwiftStudentChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E41EF62B4B28E30079369A /* SwiftStudentChallengeTests.swift */; };
 		E3E41F012B4B28E30079369A /* SwiftStudentChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E41F002B4B28E30079369A /* SwiftStudentChallengeUITests.swift */; };
 		E3E41F032B4B28E30079369A /* SwiftStudentChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E41F022B4B28E30079369A /* SwiftStudentChallengeUITestsLaunchTests.swift */; };
-		E3E41F132B4B29B70079369A /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E41F122B4B29B70079369A /* Build.swift */; };
 		E3E41F152B4B29C40079369A /* Fly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E41F142B4B29C40079369A /* Fly.swift */; };
 		E3E41F172B4B29D00079369A /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E41F162B4B29D00079369A /* Glossary.swift */; };
 		E3E41F192B4B29DA0079369A /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E41F182B4B29DA0079369A /* Learn.swift */; };
@@ -44,19 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E32C64D62B87EAAD001FF30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E38A45862B86874000B15F87 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
-		E38A45882B869C5500B15F87 /* PageTurn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTurn.swift; sourceTree = "<group>"; };
+		E3B747972B88FB5C00F261ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E3B7479C2B8C27BF00F261ED /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Build.swift; path = ../Build.swift; sourceTree = "<group>"; };
 		E3E41EE22B4B28E10079369A /* SwiftStudentChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudentChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E41EE52B4B28E10079369A /* SwiftStudentChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudentChallengeApp.swift; sourceTree = "<group>"; };
 		E3E41EE72B4B28E10079369A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3E41EE92B4B28E20079369A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3E41EEC2B4B28E20079369A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E3E41EF22B4B28E30079369A /* SwiftStudentChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStudentChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E41EF62B4B28E30079369A /* SwiftStudentChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudentChallengeTests.swift; sourceTree = "<group>"; };
 		E3E41EFC2B4B28E30079369A /* SwiftStudentChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStudentChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E41F002B4B28E30079369A /* SwiftStudentChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudentChallengeUITests.swift; sourceTree = "<group>"; };
 		E3E41F022B4B28E30079369A /* SwiftStudentChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudentChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E3E41F122B4B29B70079369A /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
 		E3E41F142B4B29C40079369A /* Fly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fly.swift; sourceTree = "<group>"; };
 		E3E41F162B4B29D00079369A /* Glossary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
 		E3E41F182B4B29DA0079369A /* Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn.swift; sourceTree = "<group>"; };
@@ -114,29 +112,20 @@
 		E3E41EE42B4B28E10079369A /* SwiftStudentChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				E3B747972B88FB5C00F261ED /* Info.plist */,
 				E3E41EE52B4B28E10079369A /* SwiftStudentChallengeApp.swift */,
 				E3E41EE72B4B28E10079369A /* ContentView.swift */,
 				E3E41F1C2B4B2A520079369A /* Story.swift */,
-				E38A45882B869C5500B15F87 /* PageTurn.swift */,
+				E3E41F142B4B29C40079369A /* Fly.swift */,
+				E3B7479C2B8C27BF00F261ED /* Build.swift */,
+				E3E41F162B4B29D00079369A /* Glossary.swift */,
+				E3E41F182B4B29DA0079369A /* Learn.swift */,
 				E3EECFE22B854F2E0065294A /* PagerView.swift */,
 				E38A45862B86874000B15F87 /* Questions.swift */,
 				E3EECFE02B85472D0065294A /* AppViewModel.swift */,
-				E3E41F122B4B29B70079369A /* Build.swift */,
-				E3E41F142B4B29C40079369A /* Fly.swift */,
-				E3E41F162B4B29D00079369A /* Glossary.swift */,
-				E3E41F182B4B29DA0079369A /* Learn.swift */,
 				E3E41EE92B4B28E20079369A /* Assets.xcassets */,
-				E3E41EEB2B4B28E20079369A /* Preview Content */,
 			);
 			path = SwiftStudentChallenge;
-			sourceTree = "<group>";
-		};
-		E3E41EEB2B4B28E20079369A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E3E41EEC2B4B28E20079369A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		E3E41EF52B4B28E30079369A /* SwiftStudentChallengeTests */ = {
@@ -150,6 +139,7 @@
 		E3E41EFF2B4B28E30079369A /* SwiftStudentChallengeUITests */ = {
 			isa = PBXGroup;
 			children = (
+				E32C64D62B87EAAD001FF30F /* Info.plist */,
 				E3E41F002B4B28E30079369A /* SwiftStudentChallengeUITests.swift */,
 				E3E41F022B4B28E30079369A /* SwiftStudentChallengeUITestsLaunchTests.swift */,
 			);
@@ -266,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3E41EED2B4B28E20079369A /* Preview Assets.xcassets in Resources */,
 				E3E41EEA2B4B28E20079369A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,17 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E38A45892B869C5500B15F87 /* PageTurn.swift in Sources */,
 				E3E41F1D2B4B2A520079369A /* Story.swift in Sources */,
 				E3EECFE32B854F2E0065294A /* PagerView.swift in Sources */,
 				E3E41EE82B4B28E10079369A /* ContentView.swift in Sources */,
 				E38A45872B86874000B15F87 /* Questions.swift in Sources */,
+				E3B7479D2B8C27BF00F261ED /* Build.swift in Sources */,
 				E3EECFE12B85472D0065294A /* AppViewModel.swift in Sources */,
 				E3E41F192B4B29DA0079369A /* Learn.swift in Sources */,
 				E3E41EE62B4B28E10079369A /* SwiftStudentChallengeApp.swift in Sources */,
 				E3E41F152B4B29C40079369A /* Fly.swift in Sources */,
 				E3E41F172B4B29D00079369A /* Glossary.swift in Sources */,
-				E3E41F132B4B29B70079369A /* Build.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +457,8 @@
 				DEVELOPMENT_TEAM = S98ZKP7J9X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftStudentChallenge/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera for AR flight.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -498,6 +488,8 @@
 				DEVELOPMENT_TEAM = S98ZKP7J9X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftStudentChallenge/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera for AR flight.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -564,6 +556,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S98ZKP7J9X;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftStudentChallengeUITests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses your camera to allow you to fly in AR.";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = marioswaidan.SwiftStudentChallengeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -582,6 +577,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S98ZKP7J9X;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftStudentChallengeUITests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses your camera to allow you to fly in AR.";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = marioswaidan.SwiftStudentChallengeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
