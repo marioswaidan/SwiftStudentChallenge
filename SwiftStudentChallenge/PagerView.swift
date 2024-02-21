@@ -17,6 +17,11 @@ struct PagerView: View {
             
             //            left arrow
             Button(action: {
+                if viewModel.currentIndex <= 4 {
+                    viewModel.currentIndex -= 1
+                } else {
+                    viewModel.selectedTab = 1 // Switch to the second tab
+                }
             }) {
                 Spacer()
                 Image(systemName: "arrow.left")
